@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c75037bf983a34745999766a050b421b, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Data/Data.xlsx
+  WorksheetName: Character
+  dataArray:
+  - id: 10101
+    name: "\uD64D\uB828"
+    title: "\uAC13\uB370\uC2A4"
+    image: Char0101
+    description: "\uD64D\uB828_\uAE30\uBCF8"
+  - id: 10201
+    name: "\uB9B4\uB9AC\uBC14\uC774\uC2A4"
+    title: "\uAC13\uB370\uC2A4"
+    image: Char0201
+    description: "\uB9B4\uB9AC\uBC14\uC774\uC2A4_\uAE30\uBCF8"
+  - id: 10301
+    name: "\uC2A4\uB178\uC6B0\uD654\uC774\uD2B8"
+    title: "\uAC13\uB370\uC2A4"
+    image: Char0301
+    description: "\uC2A4\uB178\uC6B0\uD654\uC774\uD2B8_\uAE30\uBCF8"
+  - id: 10401
+    name: "\uB808\uB4DC\uD6C4\uB4DC"
+    title: "\uAC13\uB370\uC2A4"
+    image: Char0401
+    description: "\uB808\uB4DC\uD6C4\uB4DC_\uAE30\uBCF8"
+  - id: 10501
+    name: "\uB77C\uD47C\uC824"
+    title: "\uAC13\uB370\uC2A4"
+    image: Char0501
+    description: "\uB77C\uD47C\uC824_\uAE30\uBCF8"
+  - id: 10601
+    name: "\uB3C4\uB85C\uB871"
+    title: "\uAC13\uB370\uC2A4"
+    image: Char0601
+    description: "\uB3C4\uB85C\uB871_\uAE30\uBCF8"
