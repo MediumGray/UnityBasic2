@@ -9,11 +9,19 @@ using System.Collections;
 public class TestData
 {
   [SerializeField]
-  int id_i;
-  public int ID_I { get {return id_i; } set { this.id_i = value;} }
+  int id;
+  public int ID { get {return id; } set { this.id = value;} }
   
   [SerializeField]
-  string name_s;
-  public string Name_S { get {return name_s; } set { this.name_s = value;} }
+  string kor;
+  public string Kor { get {return kor; } set { this.kor = value;} }
+  
+  [SerializeField]
+  string en;
+  public string En { get {return en; } set { this.en = value;} }
+  
+  [SerializeField]
+  string[] image = new string[0];
+  public string[] Image { get {return image; } set { this.image = value;} }
   
 }

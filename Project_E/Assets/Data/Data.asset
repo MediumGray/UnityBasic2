@@ -16,17 +16,38 @@ MonoBehaviour:
   scriptFilePath: Data/Runtime
   editorScriptFilePath: Data/Editor
   sheetName: Data.xlsx
-  workSheetName: Test
+  workSheetName: Starrail
   columnHeaderList:
   - type: 3
-    name: ID_I
+    name: ID
+    isEnable: 0
+    isArray: 0
+  - type: 3
+    name: World
+    isEnable: 0
+    isArray: 0
+  - type: 3
+    name: Icon
     isEnable: 0
     isArray: 0
   - type: 1
-    name: Name_S
+    name: Title_KR
+    isEnable: 0
+    isArray: 0
+  - type: 1
+    name: Text_Kr
+    isEnable: 0
+    isArray: 0
+  - type: 1
+    name: Title_En
+    isEnable: 0
+    isArray: 0
+  - type: 1
+    name: Text_En
     isEnable: 0
     isArray: 0
   excelFilePath: Assets/Data/Data.xlsx
   SheetNames:
   - Test
-  currentSelectedSheet: 0
+  - Starrail
+  currentSelectedSheet: 1
